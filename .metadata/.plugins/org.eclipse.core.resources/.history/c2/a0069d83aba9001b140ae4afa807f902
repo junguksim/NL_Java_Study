@@ -1,0 +1,9 @@
+package nl_study_01;
+
+public class HelloWorld {
+	public static void main(String[] args) {
+		// 어떤 클래스 안에, main 이라는 메서드가 있다면 -> 실행 가능한 클래스이다.
+		System.out.println("Hello World!");
+	}
+}
+// 실행 : Ctrl + F11

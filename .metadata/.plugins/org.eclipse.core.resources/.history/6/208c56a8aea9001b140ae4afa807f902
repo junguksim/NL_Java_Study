@@ -1,0 +1,19 @@
+package nl_study_01;
+
+public class JavaOperators {
+	public static void main(String[] args) {
+		// +,-,*,/ 넘어갈게요
+		// String -> 원시 데이터 타입 아니다. 모든 객체는 시작 문자가 대문자.
+		String hello = "hello"; // single quote 는 char, double quote 는 String 용입니다.
+		String world = "world";
+		System.out.println(3 + 5);
+		System.out.println(hello + " " + world); // concat -> 접합이 된다. 붙는다.
+		
+		// ==(같다), !=(다르다) => return 타입이 boolean (true, false)
+		System.out.println(3 == 5);
+		System.out.println(4 != 7);
+		
+		Car car1 = new Car(10, "벤츠");
+		Car car2 = new Car(20, "아반떼");
+	}
+}
