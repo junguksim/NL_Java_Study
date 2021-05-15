@@ -3,7 +3,11 @@ package nl_study_02;
 public class MovieTest {
 	public static void main(String[] args) {
 		// 1. 객체를 사용하려면, 먼저 객체를 기반으로 인스턴스를 생성 해야 한다.
+		// 인스턴스 : 1. 어떤 클래스 타입의 변수
 		// 생성자 , 즉 new 클래스명() 을 통해서 클래스를 참조하는 busanhang 이라는 인스턴스를 만든다.
+		// 변수는, 메모리에 어떤 객체를 쓰겠다고 개발자가 등록한 것.
+		
+		// 타입 : 원시 타입(primitive type) 과 클래스 타입
 		
 		Movie busanhang = new Movie();
 		Movie interstella = new Movie();

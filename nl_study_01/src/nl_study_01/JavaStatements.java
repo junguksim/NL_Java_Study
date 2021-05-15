@@ -32,7 +32,7 @@ public class JavaStatements {
 		// 문자형 -> char
 		char firstCharOfName = 'J'; // 한 글자 밖에 못담고, '(single quote) 를 사용해서 선언한다.
 		
-		// 정수형 -> byte < short < int < double
+		// 정수형 -> byte < short < int < long
 		// 담을 수 있는 값의 범위가 다르다.
 		// byte : 8비트 -128 ~ 127
 		byte a = 10;
